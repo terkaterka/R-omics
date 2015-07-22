@@ -8,7 +8,7 @@ output: pdf_document
 # Introduction
 This is an R-markdown document storing my experience from Summer Institute in Statistical Genetics [SISG] (http://www.biostat.washington.edu/suminst/sisg/general).
 
-In summer 2015, I participated in 6 modules offered during the workshop:
+wwwIn summer 2015, I participated in 6 modules offered during the workshop:
 * Probability and Statistical Inference
 * Gene Expression Profiling
 * Quantitative Genetics
