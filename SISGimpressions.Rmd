@@ -1,6 +1,6 @@
 ---
 title: "R-omics"
-author: "terka"
+author: "terkaaa"
 date: "22 lipca 2015"
 output: html_document
 ---
