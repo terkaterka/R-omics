@@ -1,0 +1,70 @@
+---
+title: "R-omics"
+author: "terka"
+date: "22 lipca 2015"
+output: pdf_document
+---
+
+# Introduction
+This is an R-markdown document storing my experience from Summer Institute in Statistical Genetics [SISG] (http://www.biostat.washington.edu/suminst/sisg/general).
+
+In summer 2015, I participated in 6 modules offered during the workshop:
+* Probability and Statistical Inference
+* Gene Expression Profiling
+* Quantitative Genetics
+* Unsupervised Methods for Statistical Machine Learning
+* Reproducible Research in Biomedical Big Data
+* Pathway & Network Analysis for Omics Data
+
+# The modules' content
+
+## Probability and Statistical Inference
+
+## Gene Expression Profiling
+
+## Quantitative Genetics
+
+## Unsupervised Methods for Statistical Machine Learning
+
+## Reproducible Research in Biomedical Big Data
+
+## Pathway & Network Analysis for Omics Data
+
+Although quite tool-oriented in comparison with content of the other workshops, it was a priceless lesson for an R- beginner. I learned how to
+1. Properly document and store my files
+2. Build R packages
+3. Describe my R functions
+4. Upload my data on GitHub
+5. Share my data in a smart way
+
+As an example of what helpful tools did I learn, I would like to mention R packages: 
+* roxygen2, which helps to describe functions
+* devtools, which helps to build packages
+* knitr, which builds smart documentation files like this one
+* rmarkdown, R-friendly text editor
+
+To install packages, follow the code:
+``` {r}
+#install.packages(devtools)
+#install.packages(knitr)
+#install.packages(roxygen2)
+#install.packages(rmarkdown)
+```
+And then invoke them by typing:
+``` {r}
+#library(devtools) # same for other libraries
+```
+
+As for other documentation of what we learned, visit my [GitHub repository] (https://github.com/terkaterka/R-omics). You will find there
+* my homeworks
+* my first R package
+* 
+
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
