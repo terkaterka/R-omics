@@ -6,9 +6,10 @@ output: html_document
 ---
 
 # Introduction
-This is an R-markdown document storing my experience from Summer Institute in Statistical Genetics [SISG] (http://www.biostat.washington.edu/suminst/sisg/general).
+This is an R-markdown document storing my experience from Summer Institute in Statistical Genetics [SISG](http://www.biostat.washington.edu/suminst/sisg/general).
 
 In summer 2015, I participated in 6 modules offered during the workshop:
+
 *  Probability and Statistical Inference
 *  Gene Expression Profiling
 *  Quantitative Genetics
@@ -31,6 +32,7 @@ In summer 2015, I participated in 6 modules offered during the workshop:
 ## Pathway & Network Analysis for Omics Data
 
 Although quite tool-oriented in comparison with content of the other workshops, it was a priceless lesson for an R- beginner. I learned how to
+
 1. Properly document and store my files
 2. Build R packages
 3. Describe my R functions
@@ -38,6 +40,7 @@ Although quite tool-oriented in comparison with content of the other workshops, 
 5. Share my data in a smart way
 
 As an example of what helpful tools did I learn, I would like to mention R packages: 
+
 * roxygen2, which helps to describe functions
 * devtools, which helps to build packages
 * knitr, which builds smart documentation files like this one
