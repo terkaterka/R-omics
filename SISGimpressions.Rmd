@@ -2,19 +2,19 @@
 title: "R-omics"
 author: "terka"
 date: "22 lipca 2015"
-output: pdf_document
+output: html_document
 ---
 
 # Introduction
 This is an R-markdown document storing my experience from Summer Institute in Statistical Genetics [SISG] (http://www.biostat.washington.edu/suminst/sisg/general).
 
-wwwIn summer 2015, I participated in 6 modules offered during the workshop:
-* Probability and Statistical Inference
-* Gene Expression Profiling
-* Quantitative Genetics
-* Unsupervised Methods for Statistical Machine Learning
-* Reproducible Research in Biomedical Big Data
-* Pathway & Network Analysis for Omics Data
+In summer 2015, I participated in 6 modules offered during the workshop:
+*  Probability and Statistical Inference
+*  Gene Expression Profiling
+*  Quantitative Genetics
+*  Unsupervised Methods for Statistical Machine Learning
+*  Reproducible Research in Biomedical Big Data
+*  Pathway & Network Analysis for Omics Data
 
 # The modules' content
 
@@ -45,10 +45,10 @@ As an example of what helpful tools did I learn, I would like to mention R packa
 
 To install packages, follow the code:
 ``` {r}
-#install.packages(devtools)
-#install.packages(knitr)
-#install.packages(roxygen2)
-#install.packages(rmarkdown)
+#install.packages("devtools")
+#install.packages("knitr")
+#install.packages("roxygen2")
+#install.packages("rmarkdown")
 ```
 And then invoke them by typing:
 ``` {r}
